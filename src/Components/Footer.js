@@ -1,14 +1,26 @@
 import React from "react"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import ReactDom from 'react-dom'
+import GithubBrandIcon from "../images/github-brand-icon.svg"
+import LinkedinBrandIcon from "../images/linkedin-brand-icon.svg"
 
 function Footer() {
   return(
-    <div className="footer-container">
-      <ul>
-        <li><FontAwesomeIcon icon="fab fa-linkedin-in" /></li>
-        <li><FontAwesomeIcon icon="fa-brands fa-github" /></li>
-      </ul>
+    <div className="footer-icons">
+      <a href="https://github.com/luzvaldovinos">
+        <img
+          src={GithubBrandIcon}
+          className="github-icon"
+          style={{ height: 24 }}
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/luzvaldovinos/">
+        <img
+          src={LinkedinBrandIcon}
+          className="linkedin-icon"
+          style={{ height: 24 }}
+        />
+      </a>
+
     </div>
   )
 }

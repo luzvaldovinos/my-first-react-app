@@ -1,23 +1,75 @@
-.container {
+.app-container {
   width: 317px;
-  height: 399px;
+  height: 1000px;
   /* left: 116px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-width: 12cm;
-  border-color: black;
-  border-radius: 8px;
+  justify-content: center;
+  border: 1px solid #FF69B4;
+  background-color: #fff6f9;
+  color: black;
+  margin-left: 40vw;
+}
+.info-h1 {
+  margin-left: 4vw;
+}
+
+.info-h3 {
+  margin: 5vw;
+  margin-bottom: 6vh;
+  margin-top: 2vh;
 }
 
 .profile-pic {
-  width: 270px;
+  width: 240px;
   height: 317px;
-  top: 260px;
-  left: 116px;
+  margin-left: 3vw;
   border-radius: 24px ;
+  margin-top: 5vh;
+  justify-content: center;
+}
+.portfolio-link {
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  margin: 7vw;
+  padding: 8px;
+  color: #9385FF;
 }
 
-#root {
-  display: flex !important;
+.about-paragraph {
+  margin: 16px;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+.about-h1 {
+  margin-left: 1vw;
+  margin-bottom: 2vh;
+  margin-top: 6vh;
+}
+
+.interests-paragraph {
+  margin: 16px;
+  text-align: center;
+}
+
+.interests-h1 {
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  margin-top: 1vh;
+}
+
+.github-icon {
+  margin-right: 3vw;
+  margin-left: 6vw;
+  color: #9385FF !important;
+}
+
+.linkedin-icon {
+  margin-left: 4vw;
+  margin-right: 4vw;
+  color: #9385FF !important;
 }
