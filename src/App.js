@@ -7,7 +7,7 @@ import './App.css'
 
 function App() {
   return(
-    <div className="container">
+    <div className="app-container">
       <Info />
       <About />
       <Interests />

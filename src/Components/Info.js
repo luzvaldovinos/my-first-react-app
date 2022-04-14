@@ -10,8 +10,8 @@ function Info() {
         className="profile-pic"
         style={{ height: 317}}
       />
-      <h1>Luz Valdovinos</h1>
-      <h3>Frontend Developer</h3>
+      <h1 className="info-h1">Luz Valdovinos</h1>
+      <h3 className="info-h3">Frontend Developer</h3>
       <a className="portfolio-link" href="https://troopl.com/luzvaldovinos">Luz's Portfolio</a>
     </div>
   )
